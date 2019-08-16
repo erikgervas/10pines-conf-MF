@@ -5,6 +5,7 @@
 
 .pino-app {
   flex: 1;
+  overflow: hidden;
   display: flex;
   font-family: "Roboto", sans-serif;
   justify-content: center;

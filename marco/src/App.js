@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 import logo from './logo-10p.png'
+import registerAllApplications from "./registerAllApps";
+
+registerAllApplications();
 
 export const App = () => (
   <div id='marco'>
