@@ -1,0 +1,27 @@
+#marco {
+  display: flex;
+  height: 100vh;
+}
+
+.pino-app {
+  flex: 1;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  border: 0.1rem slategray solid;
+  margin: 1rem;
+}
+
+.columna-chica {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.columna-medio {
+  display: flex;
+  flex-direction: column;
+  flex: 1.2;
+}
