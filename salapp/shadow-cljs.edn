@@ -1,0 +1,12 @@
+{:source-paths ["src"]
+ :dependencies [[reagent "0.8.1"]
+                [cljs-css-modules "0.2.1"]]
+ :builds {:npm {:target :npm-module
+                :output-dir "node_modules/shadow-cljs"
+                :entries [salapp.main]}
+          :dev {:target :browser
+                :output-dir "target/"
+                :asset-path "."
+                :modules {:main {:entries [salapp.main]}}
+                :devtools {:http-port 8021
+                           :http-root "target/"}}}}

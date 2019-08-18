@@ -1,0 +1,26 @@
+{
+  "name": "salapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "prestart": "shadow-cljs compile npm && webpack",
+    "dev": "shadow-cljs watch dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "single-spa-react": "^2.10.2"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.8.50",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0"
+  }
+}

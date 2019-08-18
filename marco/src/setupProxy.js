@@ -5,4 +5,9 @@ module.exports = function (app) {
     target: 'http://localhost:3001',
     pathRewrite: { '^/blog(.*)': '$1' },
   }));
+
+  app.use('/salapp', proxy({
+    target: 'http://localhost:3002',
+    pathRewrite: { '^/salapp(.*)': '$1' },
+  }));
 };
