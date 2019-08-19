@@ -19,14 +19,16 @@ export const App = () => (
       </div>
     </div>
     <div className='columna-medio'>
-      <img src={logo}/>
+      <img src={ logo }/>
       <div id='status'>
         <h2>Status</h2>
       </div>
     </div>
     <div className='columna-chica'>
-      <div className='pino-app' id='secret-pal'>
-        <h2>Secret-pal</h2>
+      <div className='pino-app'>
+        <div id='secret-pal'>
+          <h2>Secret-pal</h2>
+        </div>
       </div>
       <div className='pino-app' id='salapp'>
         <h2>Salapp</h2>

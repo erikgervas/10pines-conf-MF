@@ -10,4 +10,9 @@ module.exports = function (app) {
     target: 'http://localhost:3002',
     pathRewrite: { '^/salapp(.*)': '$1' },
   }));
+
+  app.use('/secret-pal', proxy({
+    target: 'http://localhost:3003',
+    pathRewrite: { '^/secret-pal(.*)': '$1' },
+  }));
 };
