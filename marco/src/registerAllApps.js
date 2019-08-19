@@ -5,6 +5,7 @@ export default async function registerAllApplications() {
   await Promise.all([
     loadApp('blog', '/blog/singleSpaEntry.js'),
     loadApp('salapp', '/salapp/is-this-the-lisp-life.js'),
+    loadApp('secret-pal', '/secret-pal/singleSpaEntry.js'),
   ]);
 
   singleSpa.start();

@@ -6,6 +6,6 @@
                 [:from {:left "100%"}]
                 [:to   {:left "-50%"}])
   [".reserva"    {:position "relative" :animation (str "10s infinite linear " (:slide style))}]
-  [".contenedor" {:flex 1 :align-self "stretch" :display "flex" :flex-direction "column"}]
+  [".contenedor" {:flex 1 :display "flex" :flex-direction "column"}]
   [".sala"       {:flex 1 :display "flex"}])
 
