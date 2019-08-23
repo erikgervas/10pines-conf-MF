@@ -1,33 +1,60 @@
-.App {
-  text-align: center;
+.app {
+  background-image: linear-gradient(to bottom, #ee0808 , #390202);
+  flex: 1;
+  font-size: 0.9vw;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
   display: flex;
-  flex-direction: column;
+  padding: 1%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 1rem;
+  background-color: white;
+  position: relative;
+  text-decoration: none;
+  color: black;
+  margin: 3%;
 }
 
-.App-link {
-  color: #61dafb;
+.card:hover {
+  color: blue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-text{
+  margin: 0 2%;
+}
+
+.blog-image {
+  width: 40%;
+  height: auto;
+}
+
+.new-gif {
+  width: 10vh;
+  height: auto;
+  position: absolute;
+  left: -4%;
+  top: -12%;
+  transform: rotate(-20deg);
+}
+
+.post-revision {
+  display: flex;
+  align-items: center;
+  background-color: #e2e2e2;
+  position: relative;
+  top: 8%;
+}
+
+.post-revision > img {
+  width: 10%;
+  height: auto;
+}
+
+#post-revision-name {
+  position: relative;
+  left: 100%;
+  font-weight: bold;
+  font-size: 1vw;
+  font-style: italic;
 }
