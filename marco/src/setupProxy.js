@@ -15,4 +15,9 @@ module.exports = function (app) {
     target: 'http://localhost:3003',
     pathRewrite: { '^/secret-pal(.*)': '$1' },
   }));
+
+  app.use('/loomio', proxy({
+    target: 'http://localhost:3006',
+    pathRewrite: { '^/loomio(.*)': '$1' },
+  }));
 };

@@ -6,6 +6,7 @@ export default async function registerAllApplications() {
     loadApp('blog', '/blog/singleSpaEntry.js'),
     loadApp('salapp', '/salapp/is-this-the-lisp-life.js'),
     loadApp('secret-pal', '/secret-pal/singleSpaEntry.js'),
+    loadApp('loomio', '/loomio/singleSpaEntry.js'),
   ]);
 
   singleSpa.start();
