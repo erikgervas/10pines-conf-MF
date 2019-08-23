@@ -21,6 +21,11 @@ module.exports = function (app) {
     pathRewrite: { '^/rocapp(.*)': '$1' },
   }));
 
+  app.use('/status', proxy({
+    target: 'http://localhost:3005',
+    pathRewrite: { '^/status(.*)': '$1' },
+  }));
+
   app.use('/loomio', proxy({
     target: 'http://localhost:3006',
     pathRewrite: { '^/loomio(.*)': '$1' },

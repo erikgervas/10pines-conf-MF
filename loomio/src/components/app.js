@@ -32,7 +32,7 @@ export default class App extends Component {
 
   notifyServerStatus(status) {
     this.setState({ serverUp: status });
-    document.dispatchEvent(new Event(`loomio/${ status ? 'up' : 'down' }`));
+    document.getElementById('loomio').dispatchEvent(new Event(`loomio/${ status ? 'up' : 'down' }`));
   }
 
   render({}, { serverUp }) {
