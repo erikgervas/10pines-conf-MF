@@ -29,6 +29,7 @@
     "preact-render-spy": "^1.2.1"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "preact": "^8.5.2",
     "preact-compat": "^3.17.0",
     "preact-render-to-string": "^4.1.0",
