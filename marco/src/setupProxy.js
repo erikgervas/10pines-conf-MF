@@ -16,6 +16,11 @@ module.exports = function (app) {
     pathRewrite: { '^/secret-pal(.*)': '$1' },
   }));
 
+  app.use('/rocapp', proxy({
+    target: 'http://localhost:3004',
+    pathRewrite: { '^/rocapp(.*)': '$1' },
+  }));
+
   app.use('/loomio', proxy({
     target: 'http://localhost:3006',
     pathRewrite: { '^/loomio(.*)': '$1' },
