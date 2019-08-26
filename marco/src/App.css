@@ -14,6 +14,11 @@
   margin: 1rem;
 }
 
+.logo {
+  width: 90%;
+  height: auto;
+}
+
 .columna-chica {
   display: flex;
   flex-direction: column;
@@ -23,5 +28,7 @@
 .columna-medio {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 2% 0;
   flex: 1.2;
 }

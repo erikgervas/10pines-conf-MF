@@ -9,5 +9,11 @@ const preactLifecycles = singleSpaPreact({
 });
 
 export const bootstrap = preactLifecycles.bootstrap;
-export const mount = preactLifecycles.mount;
+export const mount = () => {
+  const loomio = document.getElementById('loomio');
+  while(loomio.firstChild) {
+    loomio.removeChild(loomio.firstChild);
+  }
+  return preactLifecycles.mount();
+};
 export const unmount = preactLifecycles.unmount;
