@@ -46,21 +46,21 @@ export default class App extends Component {
               <img alt='barras' src={ barras }/>
               <div className={ styles.propuestaDescripcion }>
                 <div>¿Qué diseño elegimos para plotear la heladera?</div>
-                <div class={ styles.subdescripcion }>Por Pino 1 - Cierra en 2 días</div>
+                <div class={ styles.subdescripcion }>Por Gabriela Iztueta - Cierra en 2 días</div>
               </div>
             </div>
             <div className={ styles.poll }>
               <img alt='votaste' src={ tortaVotaste }/>
               <div className={ styles.propuestaDescripcion }>
-                <div>Ajustes en el logo de 10 pines</div>
-                <div class={ styles.subdescripcion }>Por Pino 2 - Cierra en 3 días</div>
+                <div>Propuesta reimpresión de remeras</div>
+                <div class={ styles.subdescripcion }>Por Nicolás Rainhart - Cierra en 3 días</div>
               </div>
             </div>
             <div class={ styles.poll }>
               <img alt='no-votaste' src={ tortaNoVotaste }/>
               <div class={ styles.propuestaDescripcion }>
                 <div>Política para HW personal</div>
-                <div class={ styles.subdescripcion }>Por Pino 3 - Cierra en 5 días</div>
+                <div class={ styles.subdescripcion }>Por Gisela Decuzzi - Cierra en 5 días</div>
               </div>
             </div>
           </div>
