@@ -1,0 +1,51 @@
+.main {
+    flex: 1;
+    background-color: #390202;
+    display: flex;
+    padding: 2%;
+    align-items: flex-start;
+    font-size: 0.9vw;
+}
+
+#logo {
+    position: relative;
+    width: 25%;
+    height: auto;
+    margin-right: 1rem;
+    animation: rotate 3s infinite ease-in-out;
+}
+
+.noDisponible {
+    display: flex;
+    flex: 1;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg)
+    }
+    to {
+        transform: rotateY(360deg)
+    }
+}
+
+.card {
+    background-color: white;
+    padding: 1rem 0;
+    border-radius: 0.2rem;
+}
+
+.poll {
+    display: flex;
+    align-items: center;
+}
+
+.subdescripcion {
+    color: #767676;
+    font-size: 0.7vw;
+}
+
+.poll > img {
+    width: 3vw;
+    height: auto;
+}

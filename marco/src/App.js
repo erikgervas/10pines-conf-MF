@@ -19,7 +19,7 @@ export const App = () => (
       </div>
     </div>
     <div className='columna-medio'>
-      <img src={ logo }/>
+      <img className='logo' src={ logo }/>
       <div id='status'>
         <h2>Status</h2>
       </div>
