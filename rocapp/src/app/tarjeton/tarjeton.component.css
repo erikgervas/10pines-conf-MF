@@ -1,0 +1,184 @@
+.tarjeton {
+  display: flex;
+  background-color: white;
+  -moz-transition: box-shadow 0.5s;
+  -o-transition: box-shadow 0.5s;
+  -webkit-transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+}
+
+.tarjeton__body {
+  flex: 4;
+  overflow: auto;
+}
+
+.tarjeton__body-header {
+  padding: .8em .8em .1em .8em;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tarjeton__body-main {
+  padding: .8em 1.5em;
+}
+
+.tarjeton__body-main .title-box {
+  font-size: 1.38vw;
+  max-height: 120px;
+  padding-bottom: 1rem;
+}
+
+.thumbnail-box--thum {
+  display: inline-block;
+  background-color: #eee;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  width: 75px;
+  height: 75px;
+}
+
+.thumbnail-box--title {
+  display: inline-block;
+  width: calc(100% - 85px);
+}
+
+.thumbnail-box * {
+  vertical-align: top;
+}
+
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+}
+
+.tarjeton__aside {
+  flex: 1;
+  padding: 3em 1.5em 0 1.5em;
+  background-color: #414141;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+
+.tarjeton__aside .rocas-faltantes {
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: #9FCC3B;
+  height: 125px;
+  width: 125px;
+  text-align: center;
+  font-size: 55px;
+  padding-top: .3em;
+}
+
+.tarjeton__aside h5 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tarjeton__aside .rocas-faltantes--titulo {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.tarjeton__aside .rocas-faltantes--numero {
+  line-height: 50px;
+}
+
+.tarjeton__aside .btn-aside {
+  position: absolute;
+  width: 80%;
+  bottom: 15px;
+  left: 10%;
+  font-weight: bold;
+  color: white;
+  background-color: #68BD44;
+}
+
+.tarjeton__aside .btn-aside:hover {
+  transition: background-color 0.5s;
+  -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0 0 4px rgba(0,0,0,0.6);
+  box-shadow: 0 0 4px rgba(0,0,0,0.6);
+  color: white;
+  background-color: #9FCC3B;
+}
+
+.tarjeton__aside .btn-aside img {
+  height: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tarjeton.status--completa .tarjeton__aside .btn-aside {
+  background-color: transparent;
+  border: 2px solid #9FCC3B;
+}
+
+.little-text {
+  font-size: 12px;
+  font-style: italic;
+  color: #bbb;
+}
+
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+  border: 0;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+* {
+  box-sizing: border-box;
+}
