@@ -41,26 +41,26 @@ export default class App extends Component {
         <div class={ styles.main }>
           <img id={ styles.logo } src={ logo }/>
           <div class={ styles.card }>
-            <div style={ { color: '#767676', fontWeight: '400', marginLeft: '0.5rem', marginBottom: '1vh' } }>Current decisions</div>
+            <div style={ { color: '#767676', fontWeight: '400', marginLeft: '0.5rem', marginBottom: '1vh' } }>Decisiones actuales</div>
             <div className={ styles.poll }>
               <img alt='barras' src={ barras }/>
               <div className={ styles.propuestaDescripcion }>
                 <div>¿Qué diseño elegimos para plotear la heladera?</div>
-                <div class={ styles.subdescripcion }>By Pino 1 - Closing in 2 days</div>
+                <div class={ styles.subdescripcion }>Por Pino 1 - Cierra en 2 días</div>
               </div>
             </div>
             <div className={ styles.poll }>
               <img alt='votaste' src={ tortaVotaste }/>
               <div className={ styles.propuestaDescripcion }>
                 <div>Ajustes en el logo de 10 pines</div>
-                <div class={ styles.subdescripcion }>By Pino 2 - Closing in 3 days</div>
+                <div class={ styles.subdescripcion }>Por Pino 2 - Cierra en 3 días</div>
               </div>
             </div>
             <div class={ styles.poll }>
               <img alt='no-votaste' src={ tortaNoVotaste }/>
               <div class={ styles.propuestaDescripcion }>
                 <div>Política para HW personal</div>
-                <div class={ styles.subdescripcion }>By Pino 3 - Closing in 5 days</div>
+                <div class={ styles.subdescripcion }>Por Pino 3 - Cierra en 5 días</div>
               </div>
             </div>
           </div>
