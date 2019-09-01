@@ -25,4 +25,9 @@ module.exports = function (app) {
     target: 'http://localhost:3006',
     pathRewrite: { '^/loomio(.*)': '$1' },
   }));
+
+  app.use('/votacion-roots', proxy({
+    target: 'http://localhost:3007',
+    pathRewrite: { '^/votacion-roots(.*)': '$1' },
+  }));
 };

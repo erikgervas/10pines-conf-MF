@@ -8,6 +8,7 @@ export default async function registerAllApplications() {
     loadApp('secret-pal', '/secret-pal/singleSpaEntry.js'),
     loadApp('loomio', '/loomio/singleSpaEntry.js'),
     loadApp('rocapp', '/rocapp/main.js'),
+    loadApp('votacion-roots', '/votacion-roots/singleSpaEntry.js'),
   ]);
 
   singleSpa.start();
