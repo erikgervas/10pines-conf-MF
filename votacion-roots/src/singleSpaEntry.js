@@ -1,7 +1,8 @@
 import singleSpaHtml from 'single-spa-html';
+import './VotacionRoots'
 
 const htmlLifecycles = singleSpaHtml({
-  template: '<votacion-roots></votacion-roots>',
+  template: '<votacion-roots class="vot-main"></votacion-roots>',
   domElementGetter: () => document.getElementById('votacion-roots')
 });
 

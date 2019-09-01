@@ -15,6 +15,15 @@ module.exports = {
         use: {
           loader: 'babel-loader'
         }
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
+        loader: require.resolve('url-loader'),
+        options: {
+          publicPath: '/votacion-roots/',
+          limit: 10000,
+          name: 'static/media/[name].[hash:8].[ext]',
+        }
       }
     ]
   }
