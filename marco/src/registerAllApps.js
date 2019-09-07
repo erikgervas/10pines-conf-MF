@@ -9,6 +9,7 @@ export default async function registerAllApplications() {
     loadApp('loomio', '/loomio/singleSpaEntry.js'),
     loadApp('rocapp', '/rocapp/main.js'),
     loadApp('votacion-roots', '/votacion-roots/singleSpaEntry.js'),
+    loadApp('status', '/status/let-the-hell-break-loose.js'),
   ]);
 
   singleSpa.start();
