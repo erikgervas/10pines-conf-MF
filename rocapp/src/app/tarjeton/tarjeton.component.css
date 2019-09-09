@@ -24,7 +24,6 @@
 .texto-header {
   border-bottom: 1px solid #eee;
   display: flex;
-  justify-content: left;
   align-items: center;
 }
 
@@ -41,7 +40,6 @@
   justify-content: center;
   align-items: center;
   font-size: 4vh;
-  max-height: 120px;
 }
 
 .rocas-faltantes {
