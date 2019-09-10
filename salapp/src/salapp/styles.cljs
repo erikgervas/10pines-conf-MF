@@ -7,5 +7,5 @@
                 [:to   {:left "-50%"}])
   [".reserva"    {:position "relative" :animation (str "10s infinite linear " (:slide style))}]
   [".contenedor" {:flex 1 :display "flex" :flex-direction "column"}]
-  [".sala"       {:flex 1 :display "flex"}])
+  [".sala"       {:flex 1 :display "flex" :align-items "center"}])
 

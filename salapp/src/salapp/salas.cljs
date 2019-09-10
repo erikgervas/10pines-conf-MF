@@ -6,4 +6,4 @@
             {:nombre "Naranja" :color "#f8f1c7" :reserva "No tiene reservas hasta las 17hs"}
             {:nombre "Amarilla" :color "#f5feda" :reserva "[16hs-18hs] Claro: charla de microfrontends"}
             {:nombre "Verde" :color "#e9fdde" :reserva "No tiene reservas hasta las 18hs"}
-            {:nombre "Capacitaciones" :color "#dbe1e1" :reserva "[Todo el día] Curso Smalltalk"}])
+            {:nombre "Capacitaciones" :color "#dbe1e1" :reserva "[Todo el día] Curso Lisp"}])

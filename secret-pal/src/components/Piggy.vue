@@ -18,6 +18,9 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  h1 {
+    margin: 0.5rem;
+  }
   #piggy {
     width: 50%;
     height: auto;
