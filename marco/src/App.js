@@ -8,34 +8,32 @@ registerAllApplications();
 export const App = () => (
   <div id='marco'>
     <div className='columna-chica'>
-      <div className='pino-app' id='votacion-roots'>
-        <h2>Votación de roots</h2>
-      </div>
-      <div className='pino-app' id='blog'>
-        <h2>Blog</h2>
-      </div>
-      <div className='pino-app' id='rocapp'>
-        <h2>Rocapp</h2>
-      </div>
+      <Microfrontend placeholder='Votación de roots' id='votacion-roots'/>
+      <Microfrontend placeholder='Blog' id='blog'/>
+      <Microfrontend placeholder='Rocapp' id='rocapp'/>
     </div>
+
     <div className='columna-medio'>
-      <img className='logo' src={ logo }/>
+      <img className='logo' src={ logo } alt='10pines' />
       <div id='status'>
         <h2>Status</h2>
       </div>
     </div>
+
     <div className='columna-chica'>
       <div className='pino-app'>
         <div id='secret-pal'>
           <h2>Secret-pal</h2>
         </div>
       </div>
-      <div className='pino-app' id='salapp'>
-        <h2>Salapp</h2>
-      </div>
-      <div className='pino-app' id='loomio'>
-        <h2>Loomio</h2>
-      </div>
+      <Microfrontend placeholder='Salapp' id='salapp' />
+      <Microfrontend placeholder='Loomio' id='loomio' />
     </div>
+  </div>
+);
+
+const Microfrontend = ({placeholder, id, props}) => (
+  <div className='pino-app' id={id}>
+    <h2>{placeholder}</h2>
   </div>
 );
