@@ -1,4 +1,8 @@
 # loomio
+Loomio is decision-making software designed to assist groups with the collaborative decision-making process. It is a free software web application, where users can initiate discussions and put up proposals. 
+
+You can [read more about loomio here](https://www.loomio.org)
+
 
 ## CLI Commands
 
@@ -19,4 +23,3 @@ npm run serve
 npm run test
 ```
 
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
