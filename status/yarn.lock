@@ -4951,6 +4951,13 @@ infer-owner@^1.0.3:
   resolved "https://registry.yarnpkg.com/infer-owner/-/infer-owner-1.0.4.tgz#c4cefcaa8e51051c2a40ba2ce8a3d27295af9467"
   integrity sha512-IClj+Xz94+d7irH5qRyfJonOdfTzuDaifE6ZPWfx0N0+/ATZCbuTPq2prFl526urkQd90WyUKIh1DfBQ2hMz9A==
 
+inferno-create-element@^7.3.1:
+  version "7.4.10"
+  resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-7.4.10.tgz#a4d143c98aa141345fd9969b55b56f57336e0329"
+  integrity sha512-Gvq0FHL7qHofYjItVkpsOJtr8f2Ok1kxftBedbQb1fCUpHIEwiUvJSh+HX83ZunVwE9tisoPc/ddQPYFJ+x72Q==
+  dependencies:
+    inferno "7.4.10"
+
 inferno-dev-utils@^6.0.4:
   version "6.0.4"
   resolved "https://registry.yarnpkg.com/inferno-dev-utils/-/inferno-dev-utils-6.0.4.tgz#ecd9d90b93070d18ffb2f05b9b6b78ed5216d83b"
@@ -4989,10 +4996,29 @@ inferno-shared@7.3.1:
   resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-7.3.1.tgz#93e269cb46838780b68fa5113c9a29b6109882de"
   integrity sha512-7I1ZJG+MFcGtlXjuyvkwFSGcT46Vs9NTzA0Sr1EkF9EMqVskVflP1r5f+quASMhby2OY7AGXnAaSsM7AbxsOlA==
 
+inferno-shared@7.4.10:
+  version "7.4.10"
+  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-7.4.10.tgz#d4ca2c7fd6b580f86a623e923d080aa1d7259014"
+  integrity sha512-d7wlcW8NhchfX4vSg+6k9/FwFHAooo81GfWZtnDXtUvZNS4WEMaPH2j1YV6VnN4X3R0850dHRxR7830PdKh4Iw==
+
 inferno-vnode-flags@7.3.1:
   version "7.3.1"
   resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-7.3.1.tgz#27f767a03d8f0775f8bc5ad03c9ea07ec66aa2c7"
   integrity sha512-7LKuUGfFVSiFdRH6NVLTetrDbft4BxUePUIjXm4f+g9hginYuBwPbFJbbHK700Ysy4rapTqYnFxSk0k5JBZr+A==
+
+inferno-vnode-flags@7.4.10:
+  version "7.4.10"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-7.4.10.tgz#a255931fc1df1e6896b29226d837f28e1c5ac968"
+  integrity sha512-OzfnqXrJx8Rl3FtyjhdFk7gzuCLMPCbDTiO8Bz0lw6P3ngW9Md5N5LPeg7Jz510PM0NisScQtxxHPwsFQxDIfw==
+
+inferno@7.4.10:
+  version "7.4.10"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-7.4.10.tgz#edfeca0db7dd1790aaf60e6aaf7edae8fe97dc63"
+  integrity sha512-L/qPVapN/b4WSrQND6fN0LOvhIeCVpGFQRbDplZvovOJoxRRZyE21k92tL/C76hQVFOp2FIgjZ7fjy9AnKPS+A==
+  dependencies:
+    inferno-shared "7.4.10"
+    inferno-vnode-flags "7.4.10"
+    opencollective-postinstall "^2.0.3"
 
 inferno@^7.3.1:
   version "7.3.1"
@@ -6986,6 +7012,11 @@ opencollective-postinstall@^2.0.2:
   resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"
   integrity sha512-pVOEP16TrAO2/fjej1IdOyupJY8KDUM1CvsaScRbw6oddvpQoOfGk4ywha0HKKVAD6RkW4x6Q+tNBwhf3Bgpuw==
 
+opencollective-postinstall@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz#7a0fff978f6dbfa4d006238fbac98ed4198c3259"
+  integrity sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==
+
 opn@5.4.0, opn@^5.1.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/opn/-/opn-5.4.0.tgz#cb545e7aab78562beb11aa3bfabc7042e1761035"
@@ -8935,6 +8966,11 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
+single-spa-inferno@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/single-spa-inferno/-/single-spa-inferno-1.0.1.tgz#9a6eca0a2e81b805ad60ec69660970dd13be6b77"
+  integrity sha1-mm7KCi6BuAWtYOxpZglw3RO+a3c=
+
 sisteransi@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/sisteransi/-/sisteransi-0.1.1.tgz#5431447d5f7d1675aac667ccd0b865a4994cb3ce"
@@ -9536,9 +9572,9 @@ tmp@^0.0.33:
     os-tmpdir "~1.0.2"
 
 tmpl@1.0.x:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.4.tgz#23640dd7b42d00433911140820e5cf440e521dd1"
-  integrity sha1-I2QN17QtAEM5ERQIIOXPRA5SHdE=
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tmpl/-/tmpl-1.0.5.tgz#8683e0b902bb9c20c4f726e3c0b69f36518c07cc"
+  integrity sha512-3f0uOEAQwIqGuWW2MVzYg8fV/QNnc/IpuJNG837rLuczAaLVHslWHZQj4IGiEl5Hs3kkbhwL9Ab7Hrsmuj+Smw==
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
